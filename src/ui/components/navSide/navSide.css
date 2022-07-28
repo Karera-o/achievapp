@@ -1,0 +1,47 @@
+#leftSide{
+    height: 100%;
+    
+}
+#left_side_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20%;
+    padding: 0 20px;
+    /* background-color: azure; */
+    border-bottom: 1px solid rgb(196, 203, 204);
+    box-shadow: 0px 4px 3px rgb(191, 197, 195);
+}
+#left_side_header div{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    /* background-color: blue; */
+}
+#left_side_header div span{
+    margin-left: 10px;
+    color: rgb(195, 97, 219);
+    /* background-color: cadetblue; */
+}
+/* #left_side_header h3{
+    
+} */
+#left_side_menu{
+    padding: 0 20px;
+}
+#left_side_menu li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* margin: 10%; */
+    font-size: 15px;
+    font-family: 'Times New Roman', cursive;
+    opacity: 0.6;
+    margin: 1.4rem 0;
+    /* padding: 3px; */
+    /* background-color: rgb(176, 206, 191); */
+}
+#left_side_menu li p{
+    display: inline-block;
+    margin-left: 10px;
+}
