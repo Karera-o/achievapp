@@ -1,8 +1,17 @@
+:root{
+  --purple: rgb(195, 97, 219);
+  --bgColor:  #ffff;
+  --titleFontFamily: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  --titleFontSize: 26px;
+  --borderSize: 1px solid rgb(196, 201, 202);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
