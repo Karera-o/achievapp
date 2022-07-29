@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('mylogo.png');
+    background-image: url('logo.png');
     background-position: center;
     width: 50%;
     background-color: var(--purple);
