@@ -1,0 +1,147 @@
+#signinContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    background-color: var(--bgColor);
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+#signinHeader{
+
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    width: 60%;
+}
+#signinHeader span{
+    width: 60px;
+    height: 60px;
+    margin-left: -22px;
+    
+}
+#signinHeader span img{
+    width: 80px;
+    height: 80px;
+    
+
+}
+#signinHeader h3{
+    font-family: var(--titleFontFamily);
+    color: var(--purple);
+
+}
+#signinForm{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}
+@media screen and (max-width:900px) {
+    #signinForm{
+        width: 85%;
+    }
+    #signinHeader span{
+        width: 60px;
+        height: 60px;
+        margin-left: -80px;
+    }
+}
+#signinForm h1{
+    font-family: var(--titleFontFamily);
+    font-size: var(--titleFontSize);
+    margin: 10px 0 2px 0;
+}
+
+#signinForm p{
+    font-size: 12px;
+    margin-bottom: 15px;
+    opacity: .6;
+}
+@media screen and (max-width:900px){
+    #signinForm p{
+        /* font-size: 3px; */
+       /* visibility: hidden; */
+    }
+    label{
+        /* visibility: hidden; */
+    }
+}
+.signinInput{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.signinInput label,
+.signinInput input{
+    display: inline-block;
+}
+.signinInput label{
+    margin: 5px 0;
+}
+.signinInput input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 30px;
+    border: var(--borderSize);
+    outline: none;
+}
+.signinInput input::placeholder{
+    margin-left: 5px;
+    color: gray;
+}
+
+#signinForm button{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    color: aliceblue;
+    margin: 10px 0 0 0;
+    border: var(--borderSize);
+}
+#or{
+    text-align: center;
+    margin: 15px 0 0 0;
+    width: 90%;
+}
+
+#loginButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 90%;
+    
+    
+}
+#loginButtons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0px 10px;
+    font-size: 8px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: var(--borderSize);
+    background-color: var(--bgColor);
+    color: black;
+}
+#signinAlternative{
+    margin: 30px 0;
+    text-align: center;
+}
+#loginButtons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+#loginButtons img:nth-child(1){
+    width: 10px;
+    height: 10px;
+}
