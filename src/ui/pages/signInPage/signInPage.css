@@ -1,14 +1,23 @@
-#signUpPageContent{
+#signInPageContent{
     display: flex;
     width: 100%;
     height: 100%;
     padding: 30px;
     overflow: hidden;
+    
 }
-#signUpPageLeftSide{
+@media screen and (max-width:600px) {
+    #signInPageContent{
+        padding: 20px;
+    }
+}
+#signInPageLeftSide{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#signUpPageRightSide{
+#signInPageRightSide{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,8 +26,17 @@
     width: 50%;
     background-color: var(--purple);
 }
-#signUpPageRightSide h1{
+#signInPageRightSide h1{
     margin-top: 140px;
    color: rgb(209, 219, 228);
    font-family: var(--titleFontFamily)
+}
+@media screen and (max-width:900px){
+    #signInPageRightSide{ 
+        width: 0%;
+        visibility: hidden;
+    }
+    #signInPageLeftSide{
+        width: 100%;
+    }
 }

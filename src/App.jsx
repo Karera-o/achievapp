@@ -1,20 +1,31 @@
 import './App.css';
 import { NavSide } from './ui/components/navSide/navSide';
-import { SignUp } from './ui/components/signUp/signup';
-import { SignInPage } from './ui/pages/signInPage/signInPage';
+import  SignUpPage  from './ui/pages/signUpPage/signUpPage';
+import  SignInPage  from './ui/pages/signInPage/signInPage';
+import { BrowserRouter as Router, Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
          
-      {/* <div id='appLeftSide'>
-        <NavSide/>
-      </div>
-      <div id='appRightSide'>
-        
-      </div> */}
-      <SignInPage/>
-    </div>
+         {/* <div id='appLeftSide'>
+         
+         </div>
+         <div id='appRightSide'>
+           
+         </div> */}
+         
+         <Router>
+         <Routes>
+          <Route path='/' element={<SignUpPage/>} />
+          <Route path='/signin' element={<SignInPage/>} /> 
+          <Route path='signup' element={<SignUpPage/>} />
+          <Route path='/navbar' element={<NavSide />}/>
+         </Routes> 
+         </Router>
+       </div>
+       
+    
   );
 }
 
