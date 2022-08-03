@@ -32,8 +32,8 @@ export const SignUp = () =>{
                 <button>Sign Up</button>
                 <p id="or">OR</p>
                 <div id="loginButtons">
-                <button><img src={facebook} alt="" />Sign Up with facebook</button>
-                <button><img src={google} alt="" />Sign Up with Google account</button>
+                <button><img src={facebook} alt="" />Facebook account</button>
+                <button><img src={google} alt="" />Google account</button>
             </div>
             </form>
             

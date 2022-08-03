@@ -4,6 +4,7 @@
   --titleFontFamily: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   --titleFontSize: 26px;
   --borderSize: 1px solid rgb(196, 201, 202);
+  --primaryColor: rgb(251, 253, 255);
 }
 *{
   margin: 0;
