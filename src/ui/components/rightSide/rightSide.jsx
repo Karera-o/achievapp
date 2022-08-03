@@ -4,7 +4,9 @@ function RightSide(){
     return(
         <div
             id='suggestionContent'>
-             div   
+             <div>
+                
+                </div>   
         </div>
         
 
