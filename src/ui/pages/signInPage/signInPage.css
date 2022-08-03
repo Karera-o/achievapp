@@ -2,13 +2,14 @@
     display: flex;
     width: 100%;
     height: 100%;
+    min-width: 320px;
     padding: 30px;
     overflow: hidden;
     
 }
 @media screen and (max-width:600px) {
     #signInPageContent{
-        padding: 20px;
+        padding: 5px;
     }
 }
 #signInPageLeftSide{
@@ -38,5 +39,6 @@
     }
     #signInPageLeftSide{
         width: 100%;
+        
     }
 }

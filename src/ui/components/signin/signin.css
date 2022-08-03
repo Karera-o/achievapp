@@ -3,11 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding: 10px 20px; */
     background-color: var(--bgColor);
     height: 100%;
     width: 100%;
-    /* background-color: blue; */
+
 
 }
 #signinHeader{
@@ -20,8 +19,10 @@
 #signinHeader span{
     width: 60px;
     height: 60px;
-    margin-left: -22px;
-    
+    border-radius: 50%;
+    margin-left: -7%;
+   
+    /* background-color: aqua; */
 }
 #signinHeader span img{
     width: 80px;
@@ -47,7 +48,7 @@
     #signinHeader span{
         width: 60px;
         height: 60px;
-        margin-left: -80px;
+        margin-left: -28%;
     }
 }
 #signinForm h1{
@@ -61,15 +62,7 @@
     margin-bottom: 15px;
     opacity: .6;
 }
-@media screen and (max-width:900px){
-    #signinForm p{
-        /* font-size: 3px; */
-       /* visibility: hidden; */
-    }
-    label{
-        /* visibility: hidden; */
-    }
-}
+
 .signinInput{
     display: flex;
     flex-direction: column;
