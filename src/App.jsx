@@ -1,8 +1,11 @@
+import React from 'react';
 import './App.css';
-import { NavSide } from './ui/components/navSide/navSide';
+// import { NavSide } from './ui/components/navSide/navSide';
+// import { NavSide } from './ui/components/navSide/navSide';
 import  SignUpPage  from './ui/pages/signUpPage/signUpPage';
 import  SignInPage  from './ui/pages/signInPage/signInPage';
-import { BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import { HashRouter as Router, Routes,Route} from "react-router-dom";
+import MainPage from './ui/pages/mainPage/mainpage';
 
 function App() {
   return (
@@ -14,13 +17,13 @@ function App() {
          <div id='appRightSide'>
            
          </div> */}
-         
+         {/* <NavSide /> */}
          <Router>
          <Routes>
           <Route path='/' element={<SignUpPage/>} />
           <Route path='/signin' element={<SignInPage/>} /> 
           <Route path='signup' element={<SignUpPage/>} />
-          <Route path='/navbar' element={<NavSide />}/>
+          <Route path='/navbar' element={<MainPage />}/>
          </Routes> 
          </Router>
        </div>

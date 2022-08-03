@@ -4,7 +4,6 @@ import logo from './logo.png'
 import google from './google.png'
 import facebook from './facebook1.png'
 import { Link } from "react-router-dom";
-// import { BrowserRouter as router, Route} from "react-router-dom"
 
 
 export const SignIn = () =>{
@@ -27,7 +26,7 @@ export const SignIn = () =>{
                     <input type="password" placeholder="............"/>
                 </div>
                 
-                <button ><Link to="/navbar">Sign in</Link></button>
+                <button ><Link to="/navbar" id="link">Sign in</Link></button>
                 <p id="or">OR</p>
                 <div id="loginButtons">
                 <button><img src={facebook} alt="" />Log in with facebook</button>
@@ -36,7 +35,7 @@ export const SignIn = () =>{
             </form>
             
             <p id="signinAlternative">Don't have an account? <span>
-            <Link to="/signup">Sign up</Link>
+            <Link to="/signup" >Sign up</Link>
             </span></p>
         </div>
     );
