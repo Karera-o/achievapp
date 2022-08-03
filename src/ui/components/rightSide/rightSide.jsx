@@ -7,6 +7,7 @@ function RightSide(){
              <div 
                 id='firstUser'>
                 </div>   
+                <dir></dir>
         </div>
         
 
