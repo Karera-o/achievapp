@@ -27,7 +27,7 @@ export const SignIn = () =>{
                     <input type="password" placeholder="............"/>
                 </div>
                 
-                <button><Link to="/navbar">Sign up</Link></button>
+                <button ><Link to="/navbar">Sign in</Link></button>
                 <p id="or">OR</p>
                 <div id="loginButtons">
                 <button><img src={facebook} alt="" />Log in with facebook</button>
