@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/achievapp/static/css/main.c52511e1.css",
-    "main.js": "/achievapp/static/js/main.b1c0584a.js",
+    "main.css": "/achievapp/static/css/main.d00d4c9b.css",
+    "main.js": "/achievapp/static/js/main.29e21acc.js",
     "static/media/man1.jpg": "/achievapp/static/media/man1.1485f54eb12b8d979052.jpg",
     "static/media/woman.jpg": "/achievapp/static/media/woman.1c3c92263b6730e4f79f.jpg",
     "static/media/profile.jpg": "/achievapp/static/media/profile.375dc3d3f64781a8b89e.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.png": "/achievapp/static/media/logo.ff1eb757baef55f87163.png",
     "static/media/google.png": "/achievapp/static/media/google.7ed7a5eacbaf54a4ea37.png",
     "index.html": "/achievapp/index.html",
-    "main.c52511e1.css.map": "/achievapp/static/css/main.c52511e1.css.map",
-    "main.b1c0584a.js.map": "/achievapp/static/js/main.b1c0584a.js.map"
+    "main.d00d4c9b.css.map": "/achievapp/static/css/main.d00d4c9b.css.map",
+    "main.29e21acc.js.map": "/achievapp/static/js/main.29e21acc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c52511e1.css",
-    "static/js/main.b1c0584a.js"
+    "static/css/main.d00d4c9b.css",
+    "static/js/main.29e21acc.js"
   ]
 }
