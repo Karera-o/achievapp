@@ -20,11 +20,11 @@ export const NavSide = () =>{
             <section id="left_side_first_section" className="left_side_section">
                 <ul id="left_side_menu">
 
-                    <li className="hey"><AiFillHome size="1.3em" /><Link to="/" className="navLinks">Home</Link></li>
-                    <li className="hey"><AiFillMessage size="1.3em"/><Link to="/" className="navLinks">Messages</Link></li>
-                    <li className="hey"><CgProfile size="1.3em"/> <Link to="/" className="navLinks">Profile</Link></li>
-                    <li className="hey"><BsFillBookmarkDashFill size="1.3em"/><Link to="/" className="navLinks">Bookmark</Link></li>
-                    <li className="hey"><MdSettings size="1.3em"/><Link to="/" className="navLinks">settings</Link></li>
+                    <li className="hey"><AiFillHome size="1.3em" /><Link to="/navbar" className="navLinks">Home</Link></li>
+                    <li className="hey"><AiFillMessage size="1.3em"/><Link to="/navbar" className="navLinks">Messages</Link></li>
+                    <li className="hey"><CgProfile size="1.3em"/> <Link to="/navbar" className="navLinks">Profile</Link></li>
+                    <li className="hey"><BsFillBookmarkDashFill size="1.3em"/><Link to="/navbar" className="navLinks">Bookmark</Link></li>
+                    <li className="hey"><MdSettings size="1.3em"/><Link to="/navbar" className="navLinks">settings</Link></li>
                 
                 </ul>
             </section>

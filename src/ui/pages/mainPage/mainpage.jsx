@@ -11,11 +11,18 @@ const MainPage = () => {
             <NavSide />
         </div>
         <div id='mainpageMainside'>
-            <MainHeader/>
-            <MainCard />
+            <MainHeader id='header'/>
+           
+            <div id='content'>
+              <MainCard />
+              <MainCard />
+              <MainCard />
+              <MainCard />
+            </div>
+            
         </div>
         <div id='mainpageRightside'>
-        
+
         </div>
     </div>
   )

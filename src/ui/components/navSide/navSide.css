@@ -103,7 +103,8 @@
 @media screen and (max-width:900px) {
     #left_side_header #logo{
         padding: 10px;
-        margin-left: -30%;
+        margin-left: 2px;
+        
     }
 
 }

@@ -27,7 +27,7 @@ export const SignIn = () =>{
                 </div>
                 
                 <button ><Link to="/navbar" id="link">Sign in</Link></button>
-                <p id="or">OR</p>
+                <p id="or"><hr /> OR <hr /></p>
                 <div id="loginButtons">
                 <button><img src={facebook} alt="" />Log in with facebook</button>
                 <button><img src={google} alt="" />Log in with Google account</button>
