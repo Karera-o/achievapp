@@ -16,6 +16,14 @@
     #mainpageLeftside{
         width: 40%;
     }
+    #mainpageRightside{
+        width: 0%;
+        visibility: hidden;
+    }
+    #mainpageMainside {
+        width: 100%;
+        background-color: aqua;
+    }
 }
 #mainpageMainside #header{
     width: 100%;
@@ -43,7 +51,8 @@
 }
 #mainpageRightside{
     width: 25%;
-    background-color: aqua;
+    background-color: var(--bgColor);
+    border-radius: 10px;
 }
 
 #mainpageMainside #content:hover{

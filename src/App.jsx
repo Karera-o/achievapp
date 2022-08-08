@@ -20,6 +20,7 @@ function App() {
          </div> */}
          {/* <NavSide /> */}
          <Router>
+          
          <Routes>
           <Route path='/' element={<SignUpPage/>} />
           <Route path='/signin' element={<SignInPage/>} /> 
