@@ -1,5 +1,6 @@
 :root{
-  --purple: rgb(195, 97, 219);
+  --purple:#9747FF;
+  
   --bgColor:  #ffff;
   --titleFontFamily: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
   --titleFontSize: 26px;
@@ -13,22 +14,14 @@
 
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,body {
+  width: 100%;
+  height: 100%;
 }
 #index_main,#root{
   width: 100%;
-  height: 630px;
+  height: 100%;
+  /* height: fit-content; */
+  background-color: #9747FF;
 }
 

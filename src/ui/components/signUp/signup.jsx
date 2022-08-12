@@ -29,7 +29,7 @@ export const SignUp = () =>{
                     <label htmlFor="">Confirm password</label>
                     <input type="password" placeholder="............"/>
                 </div>
-                <button>Sign Up</button>
+                <Link to="/signin"><button>Sign Up</button></Link>
                 <p id="or"><hr /> OR <hr /></p>
         
                 <div id="loginButtons">

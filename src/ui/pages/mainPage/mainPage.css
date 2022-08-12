@@ -6,53 +6,112 @@
     margin: 5px;
     border-radius: 10px;
     /* overflow: hidden; */
+    /* background-color: aqua; */
 }
 
 #mainpageLeftside{
+    display: flex;
+    align-items: center;
     width: 20%;
     background-color: cadetblue;
 }
-@media screen and (max-width:900px) {
-    #mainpageLeftside{
-        width: 40%;
-    }
-    #mainpageRightside{
-        width: 0%;
-        visibility: hidden;
-    }
-    #mainpageMainside {
-        width: 100%;
-        background-color: aqua;
-    }
-}
-#mainpageMainside #header{
+
+/* #mainpageMainside #header1{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    /* background-color: aqua; */
-    margin: auto;
-}
+    height: 100px;
+    background-color: aqua;
+    
+}  */
 #mainpageMainside{
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: right; */
+    /* overflow: scroll; */
     
     width: 55%;
+    height: 100%;
+    /* overflow: hidden; */
     margin: 0px 5px;
     border-radius: 10px;
     /* background-color: var(--primaryColor); */
     background-color: rgb(223, 230, 231);
+    /* background-color: aqua; */
+}
+#mainpageMainside #header1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 15%;
+    overflow: hidden;
+    /* background-color: var(--purple); */
+}
+
+#mainpageMainside #menu{
+    margin-left: 30px;
+    font-size: 35px;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+#mainpageMainside #logo{
+    /* background-color: aqua; */
+    /* overflow: hidden; */
+    width: 50px;
+    height: 55px;
+    background-image: url("./logo.png");
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: 280%;
+    margin-right: 35px;
+    /* margin: 0 120px 60px 0; */
+    /* width: fit-content; */
 }
 #mainpageMainside #content{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: scroll;
-    margin: auto;
+    margin: 0 auto;
 }
 #mainpageRightside{
     width: 25%;
+    padding: 10px;
     background-color: var(--bgColor);
     border-radius: 10px;
+    background-color: rgb(223, 230, 231);
+}
+@media screen and (max-width:900px) {
+    #mainpageLeftside{
+        width: 0%;
+
+    }
+    #mainpageRightside{
+        /* width: 45%; */
+        display: none;
+        /* background-color: var(--bgColor); */
+    }
+  
+    #mainpageMainside{
+        width: 100%;
+        /* display: none; */
+        
+    }
+    #mainpageMainside #logo{
+        background-size: 300%;
+        /* background-color: aqua; */
+    }
+}
+
+@media screen and (max-width:500px) {
+    #mainpageMainside #header1{
+        height: 10%;
+        /* background-color: aqua; */
+    }
 }
 
 #mainpageMainside #content:hover{
@@ -75,3 +134,6 @@ height: 0px;
 {
 background-color: rgba(193, 197, 204, 0.692);
 }
+
+
+

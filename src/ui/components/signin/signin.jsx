@@ -14,7 +14,7 @@ export const SignIn = () =>{
                 <span><img src={logo} alt="" /></span>
                 <h3>AchievApp</h3>
             </div>
-            <form action="" id="signinForm">
+            <form action="/src/ui/components/navSide/navSide.jsx" id="signinForm">
                 <h1>SIGN IN</h1>
                 <p>Welcome to AchievApp fill in this form</p>
                 <div className="signinInput">
@@ -26,8 +26,15 @@ export const SignIn = () =>{
                     <input type="password" placeholder="............"/>
                 </div>
                 
-                <button ><Link to="/navbar" id="link">Sign in</Link></button>
-                <p id="or"><hr /> OR <hr /></p>
+                <Link to="/navbar" id="link"><button type="submit">Sign in</button></Link>
+                <div id="forgetPassword">
+                    <div>
+                    <input type="checkbox" />
+                    <span>Keep me logged in</span>
+                    </div>
+                    <Link to="/signin" className="link"> Forget password</Link>
+                </div>
+                {/* <p id="or"><hr /> OR <hr /></p> */}
                 <div id="loginButtons">
                 <button><img src={facebook} alt="" />Log in with facebook</button>
                 <button><img src={google} alt="" />Log in with Google account</button>

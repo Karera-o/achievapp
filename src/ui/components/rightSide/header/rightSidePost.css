@@ -1,0 +1,102 @@
+#RightSidePost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bgColor);
+    border-radius: 5px;
+     /* background-color: aqua; */
+
+}
+#RightSidePost div{
+    width: 100%;
+    height: 135px;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+#RightSidePost #background{
+    height: 100px;
+    width: 100%;
+    border-radius: 7px;
+    
+    background-image: url("./background.jpg");
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#RightSidePost #userProfile{
+    background-color: var(--bgColor);
+    position: relative;
+    bottom: 30px;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0 0;
+    border-radius: 10px;
+    /* background-color: brown; */
+
+}
+#RightSidePost #userProfile img{
+    width: 40px;
+    height: 50px;
+    /* object-fit: none; */
+    border-radius: 7px;
+}
+
+#RightSidePost #userNames{
+    font-family: var(--titleFontFamily);
+    font-size: 13px;
+    opacity: .8;
+    /* background-color: aqua; */
+}
+#RightSidePost #userNames h3{
+    display: flex;
+    align-items: center;
+}
+#RightSidePost #userNames #icon{
+    opacity: .8;
+}
+#RightSidePost #userNames h5{
+    opacity: .5;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+#RightSidePost #userStatistics{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: var(--titleFontFamily);
+    font-size: 14px;
+    opacity: .7;
+    height: fit-content;
+    /* background-color: blueviolet; */
+}
+#RightSidePost #userStatistics h5{
+    font-size: 11px;
+    opacity: .4;
+    margin-top: 2px;
+}
+
+#RightSidePost button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: var(--purple);
+    border-radius: 7px;
+    text-align: center;
+}
+
+#RightSidePost .icon{
+    font-size: 15px;
+}

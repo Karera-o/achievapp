@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 400px;
+    /* height: 400px; */
     background-color: var(--bgColor);
     padding: 15px;
     border-radius: 10px;
@@ -100,9 +100,9 @@
 }
 
 #maincardLoadComment{
-    /* jus: flex-end; */
+
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: auto;
     width: 100%;
     margin-left: 10px;
@@ -110,9 +110,17 @@
 #maincardLoadComment button{
     /* width: 90%; */
     padding: 5px;
+    margin-top: 30px;
     border-radius: 10px;
     background-color: var(--bgColor);
     color: purple;
     border: none;
+    
+}
+
+#postsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
