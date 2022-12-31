@@ -1,3 +1,4 @@
+## The application will help people to to post their achievements which help the employers to give them job.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
