@@ -1,5 +1,6 @@
 ## The application will help people (women) to to post their achievements which help the employers to give them job.
 # Getting Started with Create React App
+link <a href='https://karera-o.github.io/achievapp/'> open in browser </a></br></br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
